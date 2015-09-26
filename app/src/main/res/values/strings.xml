@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PopularMoviesFinal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu label to fetch updated weather info from the server -->
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Label for the temperature units preference [CHAR LIMIT=30] -->
+    <string name="sort_order_label">Sort By</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="sort_by_popularity_label">Popularity</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="sort_by_user_rating_label">User Rating</string>
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="sort_order_key" translatable="false">sortOrder</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="sort_by_popularity" translatable="false">popularity</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="sort_by_user_rating" translatable="false">rating</string>
+    <string name="title_activity_unable_to_retrieve_data">UnableToRetrieveData</string>
+    <string name="unable_to_retrieve_data">Unable to retrieve data. Please check if you are connected to the internet.</string>
+
+</resources>
